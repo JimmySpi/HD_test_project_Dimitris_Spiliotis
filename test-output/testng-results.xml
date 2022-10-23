@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-23T20:00:26 EEST" name="RegressionSuite" finished-at="2022-10-23T20:00:32 EEST" duration-ms="5824">
+    <groups>
+    </groups>
+    <test started-at="2022-10-23T20:00:26 EEST" name="Testing" finished-at="2022-10-23T20:00:32 EEST" duration-ms="5824">
+      <class name="qa.tests.TC_Vehicle_registration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:26 EEST" name="setUp" finished-at="2022-10-23T20:00:26 EEST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:26 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:26 EEST" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASZ0239]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success! Selected ASZ0239 with year 2015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:26 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:27 EEST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BBB5555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success! Selected BBB5555 with year 2016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:27 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:27 EEST" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASB1199]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success! Selected ASB1199 with year 2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:27 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:27 EEST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aBC1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:27 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:28 EEST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AB-1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:28 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:28 EEST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC/1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:28 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:29 EEST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC-1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:29 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:29 EEST" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AB1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:29 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:29 EEST" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AB11234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:29 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:30 EEST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:30 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:30 EEST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC123$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:30 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:30 EEST" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC123T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:30 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:31 EEST" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC123T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:31 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:31 EEST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:31 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:31 EEST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:31 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:31 EEST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC123T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method signature="test_case_1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:31 EEST" name="test_case_1" description="Verify registration result message" data-provider="registration_dates_data" finished-at="2022-10-23T20:00:32 EEST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There was an error!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.tests.TC_Vehicle_registration@6d2d99fc]" started-at="2022-10-23T20:00:32 EEST" name="tearDown" finished-at="2022-10-23T20:00:32 EEST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.tests.TC_Vehicle_registration -->
+    </test> <!-- Testing -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

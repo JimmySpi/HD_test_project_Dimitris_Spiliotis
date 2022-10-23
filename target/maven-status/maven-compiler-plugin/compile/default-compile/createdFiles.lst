@@ -1,0 +1,6 @@
+qa\businessObjects\BaseBO.class
+qa\businessObjects\VehicleRegistrationBO.class
+qa\base\TestBase.class
+qa\pageObjects\VehicleRegistrationPO$VehicleRegistrationLocators.class
+qa\pageObjects\VehicleRegistrationPO.class
+qa\pageObjects\BasePO.class

@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Hellas Direct QA</title>
+  <meta name="description" content="Hellas Direct QA">
+  <meta name="author" content="HD">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+    <style>
+      .row,
+      .alert {
+        margin-top: 20px;
+      }
+
+      .alert {
+        display: none;
+      }
+    </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <form id="hd-form" novalidate>
+      <div class="row">
+        <div class="col-3">
+          <input id="input-number-plates" class="form-control" placeholder="Car registration" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <select id="select-year">
+            <option disabled selected value>Select a year</option>
+            <option id="year-2017" value="2017">2017</option>
+            <option id="year-2016" value="2016">2016</option>
+            <option id="year-2015" value="2015">2015</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <button id="btn-submit" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+
+      <div class="alert alert-danger" role="alert">
+        There was an error!
+      </div>
+
+      <div class="alert alert-success" role="alert">
+      </div>
+    </form>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#hd-form').submit(function () {
+        var carreg = new RegExp('^([A-Z]{3})([0-9]{4})$');
+        if (!carreg.test($('#input-number-plates').val()) || !$('#select-year').val()) {
+          $('.alert-danger').show();
+          $('.alert-success').hide();
+        } else {
+          $('.alert-danger').hide();
+          $('.alert-success').text('Success! Selected ' + $('#input-number-plates').val() + ' with year ' + $('#select-year').val());
+          $('.alert-success').show();
+        }
+
+        return false;
+      });
+    });
+  </script>
+</body>
+
+</html>
