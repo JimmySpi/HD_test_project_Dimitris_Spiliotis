@@ -50,6 +50,7 @@ public class TC_Vehicle_registration extends TestBase {
             {"ABC-1234", "2016", "There was an error!"},
             {"AB1234", "2015", "There was an error!"},
             {"AB11234", "2015", "There was an error!"},
+            {"ABCD1234", "2015", "There was an error!"},
             {"ABC123", "2016", "There was an error!"},
             {"ABC123$", "2016", "There was an error!"},
             {"ABC123T", "2016", "There was an error!"},

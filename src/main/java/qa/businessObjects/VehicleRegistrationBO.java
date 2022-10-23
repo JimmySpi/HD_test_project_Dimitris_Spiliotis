@@ -13,6 +13,7 @@ public class VehicleRegistrationBO extends BaseBO{
 
     /**
      * Performs the user flow of registering a vehicle at the system
+     * If registration number or year is null (so we do not want to put any value) it refreshes the page to be sure that the relevant field(s) will be clear/unselected
      * @param registration_number
      * @param registration_year
      */

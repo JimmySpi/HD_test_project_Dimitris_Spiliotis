@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Vehicle Registration Suite" thread-count="3" parallel="classes">
+<suite name="Vehicle Registration Suite">
 
 	<test name="TC_Vehicle_registration">
-		<!-- <groups> <run> <exclude name = "Functionality" /> </run> </groups> -->
 		<classes>
 			<class name="qa.tests.TC_Vehicle_registration"/>
 		</classes>

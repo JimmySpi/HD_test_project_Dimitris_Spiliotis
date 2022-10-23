@@ -3,7 +3,6 @@ package qa.base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +22,6 @@ public class TestBase {
     public static WebDriverWait webDriverWait;
     public static Properties properties;
     protected static ChromeOptions chromeOptions;
-    protected static FirefoxOptions firefoxOptions;
     protected static Logger log = LoggerFactory.getLogger("Logger");
     public static String BASE_URL;
 
