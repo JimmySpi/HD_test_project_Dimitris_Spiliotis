@@ -4,14 +4,14 @@ Project Structure.
 This project is build with maven including necessary dependencies in POM.xml for Selenium and TESTNG
 Report is generated at test-output folder ("emailable-report.html") after run
 
-src\Drivers - Project Drivers
---Here are placed the selenium drivers executables. Already placed is chromedriver.exe
+src\Drivers - Project Drivers:
+Here are placed the selenium drivers executables. Already placed is chromedriver.exe
 
 src\Files - Project Files
---Here there is the test html page used for testing by opening it from the local path to the browser for testing, as there is no true web page.
---This is done at TestBase init method executed by beforeSuite (@BeforeSuite annotated), by making the BASE_URL of the application like this:
--- "BASE_URL = "file:///"+System.getProperty("user.dir") + "/src/files/" + properties.getProperty("url");" | TestBase:line:59 in method init called by beforeSuite(@BeforeSuite annotated)
--- That way using System.getProperty("user.dir") can run on any pc instead of hardcoding mine, and with
+Here there is the test html page used for testing by opening it from the local path to the browser for testing, as there is no true web page.
+This is done at TestBase init method executed by beforeSuite (@BeforeSuite annotated), by making the BASE_URL of the application like this:
+"BASE_URL = "file:///"+System.getProperty("user.dir") + "/src/files/" + properties.getProperty("url");" | TestBase:line:59 in method init called by beforeSuite(@BeforeSuite annotated)
+That way using System.getProperty("user.dir") can run on any pc instead of hardcoding mine, and with
 
 src\main\java\qa\config - Properties file folder
 --here we can specify a properties file for each different suite we have in test project. Here is only ony. This helps having different properties specified exactly
